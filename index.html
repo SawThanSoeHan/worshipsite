@@ -5,9 +5,10 @@
   <meta charset="utf-8" />
   <title>Wroship Songs</title>
 
-  <base href="./" />
+  <base href="/" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="format-detection" content="telephone=no" />
   <meta name="msapplication-tap-highlight" content="no" />
 
@@ -17,10 +18,27 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-<link rel="stylesheet" href="styles.72505f72f8cc1b5c3a35.css"></head>
+<link rel="stylesheet" href="styles.5867a57adf75c952b862.css"></head>
 
 <body>
   <app-root></app-root>
-<script src="runtime-es2015.0fe626c267472a0f8e55.js" type="module"></script><script src="runtime-es5.0fe626c267472a0f8e55.js" nomodule defer></script><script src="polyfills-es5.6efe7ecd690ba21b65e9.js" nomodule defer></script><script src="polyfills-es2015.91389ecfa80f1063947d.js" type="module"></script><script src="scripts.2407c9911e3292fd26ba.js" defer></script><script src="main-es2015.b3f7dcd2ea9fcc879c4b.js" type="module"></script><script src="main-es5.b3f7dcd2ea9fcc879c4b.js" nomodule defer></script></body>
+  <script type="text/javascript">
+
+    function getValue(data) {
+      var retrun_value = window['componentRef'].zone.run(function map() {
+        var value = window['componentRef'].component.getValue(data);
+        return value;
+      });
+      return retrun_value;
+    };
+
+    function doFun(data){
+       window['componentRef1'].zone.run(function() {
+        window['componentRef1'].component.doFun(data);
+      });
+    };
+
+  </script>
+<script src="runtime-es2015.35c4c19263cbd48ca5f3.js" type="module"></script><script src="runtime-es5.35c4c19263cbd48ca5f3.js" nomodule defer></script><script src="polyfills-es5.6efe7ecd690ba21b65e9.js" nomodule defer></script><script src="polyfills-es2015.91389ecfa80f1063947d.js" type="module"></script><script src="scripts.286d4f6f554d04cd4e0b.js" defer></script><script src="main-es2015.9356860571f56371e310.js" type="module"></script><script src="main-es5.9356860571f56371e310.js" nomodule defer></script></body>
 
 </html>
